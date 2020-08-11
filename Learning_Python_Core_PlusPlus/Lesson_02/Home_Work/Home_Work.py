@@ -1,13 +1,13 @@
 """
     -Lesson 02: List of function:
-        +Exercises 1: lesson_02_ex_01
-        +Exercises 2: lesson_02_ex_02
-        +Exercises 3: lesson_02_ex_03
-        +Exercises 4: lesson_02_ex_04
+        +Exercises 1: ex_01
+        +Exercises 2: ex_02
+        +Exercises 3: ex_03
+        +Exercises 4: ex_04
 """
 
 
-def lesson_02_ex_01():
+def ex_01():
     print("Exercises 1: Tính nghiệm hệ phương trình bậc 2.")
     a, b, c = float(input("Nhập vào a:")), float(input("Nhập vào b:")), float(input("Nhập vào c:"))
     print("Phương trình nhập vào là: {}x^2 + {}x + {} = 0.".format(a, b, c))
@@ -29,7 +29,7 @@ def lesson_02_ex_01():
     print("Exercises 1 is Done!")
 
 
-def lesson_02_ex_02():
+def ex_02():
     print("Exercises 2: Tính tổng.")
 
     n, x = int(input("Nhập vào số nguyên dương n:")), float(input("Nhập vào số thực x:"))
@@ -59,7 +59,7 @@ def lesson_02_ex_02():
     print(round(S3, 3))
 
 
-def lesson_02_ex_03():
+def ex_03():
     print("Exercises 3: Tính tổng các chữ số của số n.")
 
     n = int(input("Nhập số nguyên dương n < 1000:"))
@@ -72,7 +72,7 @@ def lesson_02_ex_03():
     print(sum_n)
 
 
-def lesson_02_ex_04():
+def ex_04():
     print("Exercises 4: Xác định tam giác.")
 
     a, b, c = float(input("Nhập vào số a:")), float(input("Nhập vào số b:")), float(input("Nhập vào số c:"))
