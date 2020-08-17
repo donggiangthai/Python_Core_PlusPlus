@@ -17,8 +17,13 @@
 #         continue
 #     print(i, end=" ")
 
-s = input()
+# # s = input()
+# #
+# # for i in range(len(s)):
+# #     if s[i] == 'a':
+# #         print(i)
+# s = "abc \n"
+# a = "123"
+# # s = s.strip()
+# print(s+a)
 
-for i in range(len(s)):
-    if s[i] == 'a':
-        print(i)
