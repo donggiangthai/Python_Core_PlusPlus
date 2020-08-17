@@ -17,6 +17,8 @@
 #         continue
 #     print(i, end=" ")
 
-s = "AaBbCc"
-print(max(s))
-print(min(s))
+s = input()
+
+for i in range(len(s)):
+    if s[i] == 'a':
+        print(i)
