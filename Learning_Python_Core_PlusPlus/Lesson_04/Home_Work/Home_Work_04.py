@@ -161,4 +161,3 @@ Example:
         if i not in a:
             a.append(i)
     print(f"Output = {len(a)}. Sequence of songs in a row: {a}")
-
